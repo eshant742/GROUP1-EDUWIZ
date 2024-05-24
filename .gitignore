@@ -1,0 +1,52 @@
+# Ignore Maven target directory
+**/target/
+
+# Ignore Maven dependency directory
+**/.m2/
+
+# Ignore Eclipse and IntelliJ IDEA files (sometimes used with Maven)
+**/.classpath
+**/.project
+**/.settings/
+**/.idea/
+**/*.iml
+
+# Ignore Node.js modules
+**/node_modules/
+
+# Ignore npm debug log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/arn-error.log*
+
+# Ignore logs
+**/logs
+**/*.log
+
+# Ignore environment variable files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Ignore VSCode specific files and directories
+**/.vscode/
+**/.history/
+
+# Ignore other common editor folders
+**/*.sublime*
+**/*.sublime*
+
+# Ignore OS generated files
+**/.DS_Store
+**/Thumbs.db
+
+# Ignore Mac system files
+**/.DS_Store
+**/*.swp
+**/*.swo
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/.idea/

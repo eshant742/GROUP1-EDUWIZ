@@ -1,0 +1,8 @@
+package com.becoder.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.becoder.model.Images;
+
+public interface uploadRepository extends JpaRepository<Images, Integer> {
+}

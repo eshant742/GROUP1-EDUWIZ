@@ -21,7 +21,7 @@ const Quiz = () => {
 
   const endTest = () => {
     alert(`Test Over! Your final score is: ${score}`);
-    window.location.href = 'http://localhost:5173/login';
+    window.location.href = 'http://localhost:5173/';
   };
 
   return (

@@ -71,7 +71,7 @@ const AboutUs = () => (
         </div>
         <div className="text-center">
           <img src={medha} alt="medha" className="w-72 h-72 rounded-3xl transform transition duration-300 hover:scale-110 shadow-lg" />
-          <h4 className="text-white mt-2 font-bold">Medha Bhardwha</h4>
+          <h4 className="text-white mt-2 font-bold">Medha Bhardwaj</h4>
         </div>
         <div className="text-center">
           <img src={prateek} alt="prateek" className="w-72 h-72 rounded-3xl transform transition duration-300 hover:scale-110 shadow-lg" />

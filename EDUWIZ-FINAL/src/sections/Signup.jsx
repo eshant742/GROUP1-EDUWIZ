@@ -27,7 +27,7 @@ const Signup = () => {
         setErrorMessage('Signup failed. Please try again.');
       }
     } catch (error) {
-      console.log(ërror);
+      console.error(error);
       setErrorMessage('An error occurred. Please try again.');
     }
   };

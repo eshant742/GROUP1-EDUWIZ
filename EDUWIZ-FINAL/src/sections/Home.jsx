@@ -34,14 +34,14 @@ const Home = (props) => {
               <br /> to <span className='text-red-500'>Enroll</span> for
               <br />Exchange
             </h1>
-            <p className='py-4 text-xl'>
+            <div className='py-4 text-xl'>
             <div style={{ textAlign: 'center', padding: '20px' }}>
   <h1 style={{ fontSize: '2rem', color: '#1BB699', fontWeight: 'bold' }}>Unlock Your Potential,</h1>
   <h1 style={{ fontSize: '2rem', color: '#FF6B6B', fontWeight: 'bold' }}>Embrace Learning,</h1>
   <h1 style={{ fontSize: '2rem', color: '#5A67D8', fontWeight: 'bold' }}>and Shape Your Future Today!</h1>
 </div>
 
-            </p>
+            </div>
             <div className=''>
 
               <Link to='/courses' >

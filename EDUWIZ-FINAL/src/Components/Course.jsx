@@ -4,11 +4,6 @@ import { Link } from 'react-router-dom'
 // import { useHistory } from 'react-router-dom'
 const Course = () => {
 
-
-  const particulerCourse = (course) => {
-    console.log(course)
-  }
-
   return (
     <>
       <section>

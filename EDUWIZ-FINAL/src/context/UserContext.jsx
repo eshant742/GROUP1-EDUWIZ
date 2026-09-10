@@ -18,10 +18,8 @@ const UserProvider = ({ children }) => {
   };
 
   const logout = () => {
-    console.log("Logging out..."); // Debugging: log before clearing user state
     setUser(null);
     localStorage.removeItem('user');
-    console.log("User state cleared and localStorage cleaned"); // Debugging: log after clearing
   };
 
   const isloggedin = () => {

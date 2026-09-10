@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Quiz = () => {
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(1);
+  const navigate = useNavigate();
   const totalQuestions = 4;
 
   const handleAnswer = (isCorrect) => {
@@ -21,7 +23,7 @@ const Quiz = () => {
 
   const endTest = () => {
     alert(`Test Over! Your final score is: ${score}`);
-    window.location.href = 'http://localhost:5173/';
+    navigate('/');
   };
 
   return (
@@ -108,7 +110,7 @@ const Quiz = () => {
           )}
         </div>
         <div className="qa_footer text-center mt-4">
-          <a href='http://localhost:5173/' className="btn1 inline-block p-2 bg-green-500 rounded-lg text-white hover:bg-green-700">Start Again</a>
+          <button onClick={() => navigate('/')} className="btn1 inline-block p-2 bg-green-500 rounded-lg text-white hover:bg-green-700">Start Again</button>
         </div>
       </div>
     </div>

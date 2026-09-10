@@ -9,7 +9,6 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    console.log("logged out ")
     logout();
     navigate('/login');
   };

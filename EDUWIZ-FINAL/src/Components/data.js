@@ -50,7 +50,7 @@ const cardData = [
   },
   {
     id: 6,
-    title: "Mathematics Course   /Programs",
+    title: "Mathematics Course / Programs",
     img: math,
     color: "pink",
     desc: "Mathematics programs provide a rigorous foundation in theoretical and applied mathematics",
